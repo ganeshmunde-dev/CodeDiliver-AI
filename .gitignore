@@ -1,0 +1,28 @@
+# Local configuration and secrets
+includes/connection.local.php
+.env
+.env.*
+*.env
+
+# Private database dump
+api/aibot_private.sql
+
+# Node.js dependencies
+node_modules/
+includes/modapk/mod/node_modules/
+
+# Uploads and generated/private files
+uploads/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+api/aibot.sql
+api/chat_ai.local.php
